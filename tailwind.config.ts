@@ -9,9 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        modernBlack: "#000000b0",
+        modernBlue: "#1E65DB",
+        blueCard: "#21d4fd",
+        primary: {
+          DEFAULT: "#0A0B12"
+        },
       },
+      fontFamily: {
+        abril: ["Abril Fatface", "serif"],
+        poppins: ["Poppins", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"]
+      }
     },
   },
   plugins: [],
